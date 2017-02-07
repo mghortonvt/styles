@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <info>
-    <title>American Psychological Association 6th edition (annotated bibliography with abstract)</title>
+    <title>American Psychological Association 6th edition (annotated bibliography with abstract extra and notes)</title>
     <title-short>APA</title-short>
-    <id>http://www.zotero.org/styles/apa-annotated-bibliography</id>
-    <link href="http://www.zotero.org/styles/apa-annotated-bibliography" rel="self"/>
+    <id>http://www.zotero.org/styles/apa-annotated-bibliography-with-abstract-and-notes</id>
+    <link href="http://www.zotero.org/styles/apa-annotated-bibliography with abstract and notes" rel="self"/>
     <link href="http://owl.english.purdue.edu/owl/resource/560/01/" rel="documentation"/>
     <author>
       <name>Simon Kornblith</name>
@@ -655,6 +655,8 @@
       <text macro="access" prefix=" "/>
       <text macro="original-date" prefix=" "/>
       <text variable="abstract" display="block"/>
+      <text variable="extra" display="block"/>
+      <text variable="notes" display="block"/>
     </layout>
   </bibliography>
 </style>
